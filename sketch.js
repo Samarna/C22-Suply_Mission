@@ -57,9 +57,7 @@ function draw() {
 function keyPressed() {
  if (keyCode === DOWN_ARROW) {
 	Matter.Body.setStatic(packageBody,false);	
-	
-	var package_options ={
+
         packageBody.restitution = 0.5;
-	}
 }
 }
